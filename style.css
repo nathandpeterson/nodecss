@@ -1,26 +1,63 @@
-.container {
-  background: #333;
-  color: white;
+html {
+  font-family: Source Sans Pro;
+  margin: 0;
+}
+
+.banner {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.logo {
-  width: 100%;
-
+.banner {
+  background: #333;
+  color: white;
+  margin: 0;
+  justify-content: center;
 }
 
-.container img {
+.logo {
+  margin-top: 1%;
+  width: 100%;
+}
+
+.banner img {
   max-height: 75px;
   align-items: center;
 }
 
-.container ul, li, a {
+.banner ul, li, a {
   display: inline;
   text-decoration: none;
   list-style: none;
   color: #d1cfcc;
-  margin: 0 .1%;
+}
+
+.conference {
+  width: 100%;
+  background-image: url(skyline.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.conference-logo img {
+  max-height: 100px;
+}
+
+.conference-info {
+  width: 30%;
+}
+
+.main {
+  text-align: center;
+  margin: 5% 12%;
+}
+
+.main h2:last-of-type {
+  background-color: #eaf5e9;
+  opacity:
 }
