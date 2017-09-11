@@ -1,0 +1,26 @@
+.container {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+
+}
+
+.container img {
+  max-height: 75px;
+  align-items: center;
+}
+
+.container ul, li, a {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  color: #d1cfcc;
+  margin: 0 .1%;
+}
