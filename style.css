@@ -1,6 +1,6 @@
 html {
   font-family: Source Sans Pro;
-  margin: 0;
+  margin: -1rem;
 }
 
 .banner {
@@ -10,7 +10,7 @@ html {
 }
 
 .banner {
-  background: #333;
+  background: rgb(55, 55, 55);
   color: white;
   margin: 0;
   justify-content: center;
@@ -35,7 +35,8 @@ html {
 
 .conference {
   width: 100%;
-  background-image: url(skyline.jpeg);
+  height: 45vh;
+  background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -44,12 +45,22 @@ html {
   text-align: center;
 }
 
-.conference-logo img {
-  max-height: 100px;
+.conference-border {
+  margin: 0 auto;
+  height: 37vh;
+  width: 69%;
+  border: 25px rgba(0,0,0,0) solid;
 }
+
+.conference-border:hover {
+  border: 26px #43853d solid;
+  background-color: #43853d;
+}
+
 
 .conference-info {
   width: 30%;
+  float: right;
 }
 
 .main {
@@ -57,7 +68,40 @@ html {
   margin: 5% 12%;
 }
 
+.main a {
+  color: #43853d
+}
+
+.main a:hover {
+  background: #43853d;
+  color: white;
+  border-radius: 2px;
+}
+
 .main h2:last-of-type {
   background-color: #eaf5e9;
-  opacity:
+}
+
+.versions {
+  display: flex;
+  justify-content:center;
+}
+
+.spacer {
+  width: 5%;
+}
+
+.button {
+  background-color:#026e00;
+  width: 100%;
+  padding: 7%;
+  text-align: center;
+}
+
+.button span {
+  font-size: 2.25rem;
+}
+
+.button a {
+  color: white;
 }
