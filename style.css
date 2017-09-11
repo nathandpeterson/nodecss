@@ -1,6 +1,7 @@
 html {
   font-family: Source Sans Pro;
   margin: -1rem;
+  color: #333;
 }
 
 .banner {
@@ -57,15 +58,9 @@ html {
   background-color: #43853d;
 }
 
-
-.conference-info {
-  width: 30%;
-  float: right;
-}
-
 .main {
   text-align: center;
-  margin: 5% 12%;
+  margin: 5% 20%;
 }
 
 .main a {
@@ -85,6 +80,7 @@ html {
 .versions {
   display: flex;
   justify-content:center;
+  margin-top: -3rem;
 }
 
 .spacer {
@@ -94,14 +90,37 @@ html {
 .button {
   background-color:#026e00;
   width: 100%;
-  padding: 7%;
+  padding: 4% 0;
   text-align: center;
 }
 
 .button span {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 .button a {
   color: white;
+}
+
+.nav-links a {
+  color:rgb(55, 55, 55);
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.last {
+  margin-top: 0;
+}
+
+footer {
+  background: rgb(55, 55, 55);
+  color: white;
+  line-height: 1.5rem;
+}
+
+footer p {
+  margin-left: 15%;
+  padding-bottom: 3%;
 }
